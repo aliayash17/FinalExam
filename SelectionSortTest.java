@@ -6,7 +6,7 @@ public class SelectionSortTest {
     @Test
     public void testPositive() {
         SelectionSort sorter = new SelectionSort();
-        int[] actual = {5, 3, 8, 4, 2};
+        int[] actual = {5, 4, 8, 4, 2};
         sorter.selectionSort(actual);
         int[] expected = {2, 3, 4, 5, 8};
         assertArrayEquals(expected, actual);
