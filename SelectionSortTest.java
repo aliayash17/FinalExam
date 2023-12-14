@@ -26,7 +26,7 @@ public class SelectionSortTest {
     @Test
     public void testMixed() {
         SelectionSort sorter = new SelectionSort();
-        int[] actual = {3, -2, 0, 5, -1};
+        int[] actual = {3, -1, 0, 5, -1};
         sorter.selectionSort(actual);
         int[] expected = {-2, -1, 0, 3, 5};
         assertArrayEquals(expected, actual);
